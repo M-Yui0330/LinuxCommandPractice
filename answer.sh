@@ -41,7 +41,7 @@ $ ls-l
 $ mkdir practice_dir_1/practice_dir_2
 
 # 11. `LinuxCommandPractice`ディレクトリ内から**移動せずに**、`practice_dir_1`内に`practice_dir_2`ディレクトリが作成されていることを確認(表示)してください。**但し、相対パスを使用してください。**
-$ s practice_dir_1
+$ ls practice_dir_1  
 
 # 12. `LinuxCommandPractice`ディレクトリ内から**移動せずに**、`./practice_dir_1/practice_dir_2`ディレクトリ内に`practice_file1.txt`、`practice_file2.txt`というファイルを**一回のコマンドで**作成してください。**但し、相対パスを使用してください。**
 $  touch ./practice_dir_1/practice_dir_2/practice_file1.txt ./practice_dir_1/practice_dir_2/practice_file2.txt
@@ -70,5 +70,15 @@ $ rm -r ./practice_dir_1/practice_dir_2
 # 20. `vi`または`vim`を用いて、カレントディレクトリにある`practice_file1.txt`に`I'm good at Linux commands!`と書き込んでください。
 $ vi practice_file1.txt
 
+$ i
+
+$ I'm good at Linux commands!
+
+$ esc押す
+
+$ :wq
+
 # 21. `practice_file1.txt`に書き込んだ内容を出力してください。
 $ cat practice_file1.txt
+
+I'm good at Linux commands!
